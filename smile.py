@@ -3,7 +3,7 @@ import arcade
 def main():
     arcade.open_window(700,700,"Smile Demo")
     arcade.set_background_color(arcade.color.AFRICAN_VIOLET)
-    face= arcade.create_ellipse(350,350,500,500, arcade.color.ANTIQUE_BRASS)
+    face= arcade.create_ellipse(350,350,300,300, arcade.color.ANTIQUE_BRASS)
     points= [(250,350),(450,350),(350,425)]
     nose= arcade.create_polygon(points, arcade.color.GRANNY_SMITH_APPLE)
     eye1= arcade.create_ellipse(300,450,100,100,arcade.color.BANANA_YELLOW)
